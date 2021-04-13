@@ -1,2 +1,2 @@
 # LearningPath
-A note about My learning-path in Dresden
+A note about My learning-path in Dresden (Master degree)
