@@ -1,0 +1,42 @@
+lecture 1:
+
+Main point:
+1: History of DL(Description Logic)   Phase 1,2,3,4  (now Ontology Language)(OWL-DL)
+
+Feature:
+1:Must be able to reason about the knowledge, and infer implicit knowledge from the explicitly represented knowledge.[Reasoning]
+2:Synatx -: provides an explicit symbolic representation of knowledge ; not just implicit,(as e.g. in neural networks)
+3:Semantics -: describes the connection betweent the [symbolic representation] and the [real-world entities] it is supposed to represent.
+    no procedural semantics. just state the [role] and [realations]. i.e. should not just be defined by how certain programs using the symbolic representation behave.
+    Declarative(陈述性的) semantics instead.
+        - mapping of the symbolic expressions to an abstraction of the "world"(interpretation)
+        - notion of "truth" that allows us ti determine whether a symbolic exprecssion is true in the world under consideration(model).
+        
+results should depend only on the semantics of the representation language, and not on the syntactic representation:
+smeantically equivalent knowledge should lead to the same result.
+{Not like c C++ :- Procedural language }
+
+Reasoning procedures should be a decision procedure for problem:
+    - soundness: positive answers are correct
+    - completeness[完整性]: negative answers are correct
+    - termination: always gives an answer in finite time
+    
+    
+ example:
+ - Satisfiability in [First-Order logic] does not have a decision procedure.
+      Full first-order logic is thus not an appropriate knowledge representation formalism
+ - Satisfiability in proposotional logic has a decision procedure,but the problem is NP-complete.
+      there are, however , highly optimized SAT solvers (Boolean satisfiabliy problem) that behave well in practice
+      expressive power is, however, often not sufficient to express the relevant knowledge
+
+
+
+First-Order logic：    
+  First-order logic—also known as predicate logic, quantificational logic, 
+  and first-order predicate calculus—is a collection of formal systems used in mathematics, philosophy, linguistics, and computer science. 
+  First-order logic uses quantified variables over non-logical objects, and allows the use of sentences that contain variables, 
+  so that rather than propositions such as "Socrates is a man", one can have expressions in the form "there exists x such that x is Socrates and x is a man", 
+  where "there exists" is a quantifier, while x is a variable.
+  [1]This distinguishes it from propositional logic, which does not use quantifiers or relations;
+  [2] in this sense, propositional logic is the foundation of first-order logic. 
+    
