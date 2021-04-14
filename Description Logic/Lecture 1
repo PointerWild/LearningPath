@@ -39,4 +39,22 @@ First-Order logic：
   where "there exists" is a quantifier, while x is a variable.
   [1]This distinguishes it from propositional logic, which does not use quantifiers or relations;
   [2] in this sense, propositional logic is the foundation of first-order logic. 
+  
+  
+  
+Terminological Knowledge
+   Formalize the terminology of the application domain:
+        - define important notions(classes, relations, objects) of the domain
+        - state constraints on the way these notions can be interpreted
+        - deduce consequences of definitions and constraints: subclass relationships, instances relationships
+    
+    Example: domain conference
+        - classes: (concepts) such like Person \ Speaker\ Author\ Talk ....
+        - relations: (roles) such like gives, attends, likes, .....
+        - objects: (individuals) like Frank, XDMXueDingming, Roy .....
+        - constrainnts: like , every talk is given by a speaker, every speaker is an author, every workshop must have at least 10 participants....
+        
+
+
+
     
